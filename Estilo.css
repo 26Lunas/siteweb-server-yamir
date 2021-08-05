@@ -462,9 +462,11 @@ main{
 .contenedor-enviar{
     border: 2px solid rgba(255, 0, 55, 0.5);
     background: rgba(255, 0, 55, 0.5);
+    width: 80%;
     height: 10%;
     padding: 1%;
     font-size: 2em;
+    font-weight: 700;
 }
 .contenedor-enviar:hover{
     background: none;
