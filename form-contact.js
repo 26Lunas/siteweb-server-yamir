@@ -15,6 +15,6 @@ async function handleSumit(event){
         this.reset()
         alert('Gracias por contactarme, te escribiré pronto!!')
     }else{
-        alert('Ocurrio un error')
+        alert('Ocurrio un error con el servidor, vuelva a intentarlo mas tarde')
     }
 }
