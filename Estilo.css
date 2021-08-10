@@ -446,7 +446,9 @@ main{
     align-items: center;
     padding: 4%;
     overflow: hidden;
-    overflow: scroll;
+}
+.contenedor-formulario:hover{
+    overflow-x: scroll;
 }
 .formulario{
     width: 90%;
