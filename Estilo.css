@@ -447,7 +447,7 @@ main{
     padding: 4%;
     overflow: hidden;
 }
-.contenedor-formulario:hover{
+.contenedor-fomulario:hover{
     overflow-x: scroll;
 }
 .formulario{
