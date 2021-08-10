@@ -65,13 +65,16 @@ body{
 .redes{
     width: 7.5em;
     margin: 0;
-
 }
+
 .redes-sociales{
     width: 26px;
     height: 26px;
     border-radius: 50%;
     background: rgb(247, 203, 225);
+}
+.linkedin img{
+    width: 90%;
 }
 .redes-sociales:hover{
     background: rgb(247, 62, 123);
@@ -446,7 +449,9 @@ main{
     align-items: center;
     padding: 4%;
     overflow: hidden;
-    overflow: scroll;
+}
+.contenedor-fomulario:hover{
+    overflow-x: scroll;
 }
 .formulario{
     width: 90%;
@@ -462,9 +467,13 @@ main{
 .contenedor-enviar{
     border: 2px solid rgba(255, 0, 55, 0.5);
     background: rgba(255, 0, 55, 0.5);
+    width: 95%;
     height: 10%;
     padding: 1%;
     font-size: 2em;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
 }
 .contenedor-enviar:hover{
     background: none;

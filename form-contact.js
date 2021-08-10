@@ -12,7 +12,9 @@ async function handleSumit(event){
         }
     })
     if (response.ok){
-        this.resizeTo()
+        this.reset()
         alert('Gracias por contactarme, te escribiré pronto!!')
+    }else{
+        alert('Ocurrio un error con el servidor, vuelva a intentarlo mas tarde')
     }
 }

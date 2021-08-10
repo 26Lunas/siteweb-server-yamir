@@ -4,20 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Estilos unicos y diseños profecionales para su pagina web">
-    <link rel="shortcut icon" href="imagenes/Logo-tipo/Favicon.png" type="image/x-icon">
+    <meta name="author" content="Yamir Serret">
+    <title>Desarrollador de Software-FreeLancer</title>
+    <meta property="og:image" contenet="imagenes/Logo-tipo/Logo-YamirS.png"/>
+    <meta property="og:url" content="https://26lunas.github.io/siteweb-server-yamir/" />
+    <link rel="shortcut icon" href="imagenes/Logo-tipo/Favicon.png" type="image/x-icon" widht=32px>
     <link rel="stylesheet" href="Estilo.css">
     <link rel="stylesheet" href="style_menu.css">
     <script src="respon-menu.js" defer></script>
-    <script src="form-contact" defer></script>
+    <script src="form-contact.js" defer></script>
     <link rel="stylesheet" href="respon-cabecera.css">
     <link rel="stylesheet" href="respon-main.css">
-    <title>Desarrollador de Software-FreeLancer</title>
+
 </head>
 <body>
     <!--Menu-->
     <nav class="nav">
             <div class="Logo-tipo">
-                <a href="Index.html">
+                <a href="index.html">
                     <img src="imagenes/Logo-tipo/Logo-YamirS.png" alt="Logo" title="Logo" >
                 </a>
             </div><!--Fin Div del logo-->
@@ -37,9 +41,9 @@
                     </li>
                 </div>
                     <div class="redes">
-                        <li><a href="#"><img class="redes-sociales facebook" src="imagenes/Redes-sociales/Facebook.png" alt="Mi Facebook"></a></li>
-                        <li><a href="#"><img class="redes-sociales instagram" src="imagenes/Redes-sociales/Instagram.png"alt="Mi Instagram"></a></li>
-                        <li><a href="#"><img class="redes-sociales whatsapp" src="imagenes/Redes-sociales/Whatsapp.png" alt="Mi Whatsapp"></a></li>
+                        <li><a href="https://www.facebook.com/26lunas/?ref=pages" target="_break"><img class="redes-sociales facebook" src="imagenes/Redes-sociales/Facebook.png" alt="Mi Facebook"></a></li>
+                        <li><a href="https://www.linkedin.com/in/yamir-serret-021476208" target="_break"><img class="redes-sociales linkedin" src="imagenes/Redes-sociales/linkedin.png"alt="Mi LinkedIn"></a></li>
+                        <li><a href="https://wa.me/+573013236980?text=HOLA!! Me interesan tus habilidades..." target="_break"><img class="redes-sociales whatsapp" src="imagenes/Redes-sociales/Whatsapp.png" alt="Mi Whatsapp"></a></li>
                     </div>
             </div><!--Fin Div lista-->
             <span class="btn-menu">
@@ -192,16 +196,12 @@
             <section id="contacto" class="contenedor-contacts">
                 <div class="contenedor-fomulario">
                     <h4>Contacto</h4>
-                    <form   action="https://formspree.io/f/xrgryryn" method="POST">
-                        <input class="formulario" type="text" placeholder="    Name">
-                        <input class="formulario" type="email" placeholder="   Email">
-                        <input class="formulario" type="number" placeholder="  Number">
-                        <textarea class="formulario textarea1" placeholder="  Messenger"></textarea>
-                            <div class="contenedor-enviar">
-                                <a href="https://formspree.io/f/xrgryryn">
-                                    <h5>Enviar</h5>
-                                </a>
-                            </div>
+                    <form  action="https://formspree.io/f/xrgryryn" method="POST" id="form">
+                        <input class="formulario" name="name" type="text" placeholder="    Name" required>
+                        <input class="formulario" name="email" type="email" placeholder="   Email" required>
+                        <input class="formulario" name="number" type="number" placeholder="  Number" required>
+                        <textarea class="formulario textarea1" placeholder="  Messenger" name="Messenger"></textarea>
+                        <input class="contenedor-enviar" type="submit" value="Enviar"/>
                     </form>
                 </div>
             </section>
@@ -214,9 +214,10 @@
                 <h4>yiserret@misena.edu.co</h4>
             </div>
             <ul class="img-footer">
-                <li><a href="#"><img class="redes-pie facebook" src="imagenes/Redes-sociales/Facebook.png" alt="Mi Facebook"></a></li>
-                <li><a href="#"><img class="redes-pie instagram" src="imagenes/Redes-sociales/Instagram.png"alt="Mi Instagram"></a></li>
-                <li><a href="#"><img class="redes-pie whatsapp" src="imagenes/Redes-sociales/Whatsapp.png" alt="Mi Whatsapp"></a></li>
+                <li><a href="https://www.linkedin.com/in/yamir-serret-021476208" target="_break"><img class="redes-pie linkedin" src="imagenes/Redes-sociales/linkedin.png"alt="Mi LinkedIn"></a></li>
+                <li><a href="https://www.facebook.com/26lunas/?ref=pages" target="_break"><img class="redes-pie facebook" src="imagenes/Redes-sociales/Facebook.png" alt="Mi Facebook"></a></li>
+                <li><a href="https://www.instagram.com/yamirs26/?hl=es" target="_break"><img class="redes-pie instagram" src="imagenes/Redes-sociales/Instagram.png"alt="Mi Instagram"></a></li>
+                <li><a href="https://wa.me/+573013236980?text=HOLA!! Me interesan tus habilidades..." target="_break"><img class="redes-pie whatsapp" src="imagenes/Redes-sociales/Whatsapp.png" alt="Mi Whatsapp"></a></li>
             </ul>
         </footer>
 </body>
