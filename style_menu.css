@@ -17,7 +17,7 @@
         position: fixed;
         width: 100vw;
         height: calc(100% - 45px);
-        background: rgba(78, 0, 26, 0.959);
+        background: #ffe3b3ef;
         justify-content: space-evenly;
         flex-direction: column;
         align-items: center;
