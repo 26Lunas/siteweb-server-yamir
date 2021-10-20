@@ -33,8 +33,9 @@ body{
 }
 .Logo-tipo{
     height: 100%;
-    width: 7.5%;
+    width: 7%;
     margin-left: 6%;
+    padding-top: .1%;
 }
 .Logo-tipo img{
     display: block;
@@ -466,8 +467,8 @@ main{
 }
 
 .contenedor-enviar{
-    border: 2px solid rgba(255, 0, 55, 0.5);
-    background: rgba(255, 0, 55, 0.5);
+    border: 2px solid rgba(228, 156, 2, 0.747);
+    background: rgba(228, 156, 2, 0.747);
     width: 95%;
     height: 10%;
     padding: 1%;
