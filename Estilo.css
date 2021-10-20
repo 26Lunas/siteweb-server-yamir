@@ -6,12 +6,13 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 :root{
-    --colorProyects: rgb(0, 0, 0);
-    --colorFondo: rgb(255, 255, 255);
+    --colorProyects: rgb(49, 49, 49);
+    --colorFondo: white;
     --ColorBlanco: rgb(255, 255, 255);
     --ColorSection:  rgb(160, 79, 160);
-    --Colorgeneral: rgb(21, 21, 24);
-    --colorNegro: #000;
+    --Colorgeneral: #111111;
+    --colorNegro: rgb(49, 49, 49);
+    --colorTexto: rgb(247, 247, 247);
     --colorGris: rgb(116, 116, 116);
 }
 body{
@@ -32,13 +33,13 @@ body{
 }
 .Logo-tipo{
     height: 100%;
-    width: 10%;
+    width: 7.5%;
     margin-left: 6%;
 }
 .Logo-tipo img{
     display: block;
     width: 100%;
-    height: 120%;
+    height: 100%;
 }
 .menu li{
     list-style: none;
@@ -60,7 +61,7 @@ body{
     color: var(--ColorBlanco);
 }
 .menu a:hover{
-    color: rgb(255, 0, 0);
+    color: rgb(228, 156, 2);
 }
 .redes{
     width: 7.5em;
@@ -71,16 +72,16 @@ body{
     width: 26px;
     height: 26px;
     border-radius: 50%;
-    background: rgb(247, 203, 225);
+    background: rgba(228, 156, 2, 0.836);
 }
 .linkedin img{
     width: 90%;
 }
 .redes-sociales:hover{
-    background: rgb(247, 62, 123);
+    background: rgba(228, 156, 2, 0.596);
 }
 .redes-sociales:active{
-    background: rgb(255, 0, 34);
+    background: rgb(192, 3, 145);
 }
 
 /*Header(Cabecera)*/
@@ -112,7 +113,7 @@ header{
 }
 .titulo h1{
     user-select: none;
-    color: var(--ColorBlanco);
+    color: var(--colorTexto);
     font-size: 3.1em;
     font-weight: 700;
     margin-bottom: 20px;
@@ -120,7 +121,7 @@ header{
 .imagen-principal p {
     font-size: 20px;
     font-weight: 400;
-    color: var(--ColorBlanco);
+    color: var(--colorTexto);
 }
 .boton{
     width: 10%;
@@ -129,17 +130,17 @@ header{
     margin: 0 auto;
     padding: 15px 0;
     color: var(--ColorBlanco);
-    background: crimson;
+    background: rgba(228, 156, 2, 0.747);
     border-radius: 10px;
     text-align: center;
     font-size: 17px;
     user-select: none;
 }
 .boton:hover{
-    background: rgba(20, 147, 220, 0.63);
+    background: rgba(220, 60, 20, 0.63);
 }
 .boton:active{
-    background: rgba(213, 20, 220, 0.63);
+    background: rgba(20, 220, 63, 0.63);
 }
 
 
@@ -153,7 +154,7 @@ main{
 }
 .section1 h2{
     font-size: 35px;
-    color: var(--colorNegro);
+    color: var(--Colorgeneral);
 }
 .section1 p{
     width: 70%;
@@ -184,7 +185,7 @@ main{
 }
 /*Sesion dos, Mis habilidades*/
 .section2{
-    color: var(--colorNegro);
+    color: var(--Colorgeneral);
     overflow: hidden;
 }
 .contenedor-masInfo{
@@ -255,13 +256,13 @@ main{
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background:linear-gradient(transparent 50%, var(--ColorBlanco) 50%);
+    background:linear-gradient(transparent 50%, var(--colorFondo) 50%);
 }
 .circulo-oculto{
     width: 75%;
     height: 75%;
     border-radius: 50%;
-    background: var(--ColorBlanco);
+    background: var(--colorFondo);
     flex-direction: column;
 
 }
@@ -269,8 +270,8 @@ main{
     width: 10rem;
     height: 10rem;
     border-radius: 50%;
-    border: solid var(--ColorBlanco) 1px;
-    box-shadow: var(--ColorBlanco) 0 0 7px;
+    border: solid var(--colorFondo) 1px;
+    box-shadow: var(--colorFondo) 0 0 7px;
 }
 
 /*Prosentaje HTMl 5*/
@@ -412,7 +413,7 @@ main{
     background-size: cover;
     background-position: center;
     background-origin: content-box;
-    color: var(--ColorBlanco);
+    color: var(--colorTexto);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -430,7 +431,7 @@ main{
 .contenedor-contacts{
     width: 100%;
     text-align: center;
-    background-image: url("imagenes/cabecera/Contacts.png");
+    background: rgb(221, 220, 220);
     background-size: cover;
     background-position: center;
     background-origin: border-box; 
@@ -514,10 +515,12 @@ main{
 .redes-pie{
     width: 30px;
     height: 30px;
+    background: rgba(228, 156, 2, 0.747);
+    border-radius: 50%;
 }
 .redes-pie:hover{
-    background: rgba(199, 199, 199, 0.596);
-    border-radius: 50%;
+    background: rgba(40, 228, 2, 0.747);
+    
     
 }
 
